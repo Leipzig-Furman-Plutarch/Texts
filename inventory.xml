@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="cts-schemas/TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TextInventory
+  tiid="hmt"
+  tiversion="5.0.rc.1"
+  xmlns="http://chs.harvard.edu/xmlns/cts"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <ctsnamespace
+    abbr="greekLit"
+    ns="http://chs.harvard.edu/ctsns/greekLit">
+    <description
+      xml:lang="eng"> The &quot;First Thousand Years of Greek&quot; project's inventory of Greek
+      texts. </description>
+  </ctsnamespace>
+  
+  
+  
+  
+ <textgroup urn="urn:cts:greekLit:tlg0007:">
+   <groupname xml:lang="eng">Plutarch</groupname>
+   <work urn="urn:cts:greekLit:tlg0007.tlg012:" xml:lang="grc">
+     <title xml:lang="eng">Pericles</title>
+     <edition urn="urn:cts:greekLit:tlg0007.tlg012.ziegler:">
+       <label xml:lang="eng">Ziegler, ed.</label>
+       <description xml:lang="eng">Ziegler, ed.</description>
+       <online/>
+       <!--<exemplar urn="urn:cts:greekLit:tlg0012.tlg001.testAllen.wt:">
+         <label xml:lang="eng">Allen. Iliad. Greek. 3 books of 10 lines. Word-tokens wrapped and citable.</label>
+       </exemplar>-->
+     </edition>
+   </work>
+ </textgroup>
+  
+  
+  
+ 
+</TextInventory>
